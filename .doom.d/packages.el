@@ -9,17 +9,17 @@
 (package! marginalia)            ; Rich annotations in the minibuffer
 
 ;;; Editor Enhancements
-(package! evil-matchit)          ; Enhanced matching pairs navigation
+(package! evil-matchit)          ; Enhanced matching pairs navigation, pair matching (like (), [], {})
 (package! evil-commentary)        ; Easy code commenting (gc to comment)
 (package! yasnippet-snippets)    ; Collection of useful snippets
 (package! multiple-cursors)      ; Edit multiple lines at once
 (package! avy)                   ; Quick navigation to visible text
 
 ;;; Development Tools
-(package! lsp-ui)                ; Enhanced UI for LSP
-(package! dap-mode)              ; Debug Adapter Protocol for Emacs
+(package! lsp-ui)                ; Enhanced UI for LSP (Better UI for language server features)
+(package! dap-mode)              ; Debug Adapter Protocol for Emacs (Debugging support)
 (package! flycheck-inline)       ; Show errors inline
-(package! quickrun)              ; Run code quickly
+(package! quickrun)              ; Run code quickly (Quickly run code)
 (package! format-all)            ; Format code in any language
 
 ;;; Go Development
