@@ -12,6 +12,11 @@
 (setq org-directory "~/org/")
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
+(after! ispell
+  (setq ispell-program-name "/opt/homebrew/bin/aspell")
+  ;; Configure aspell to work better with Flyspell
+  (add-to-list 'ispell-extra-args "--sug-mode=ultra"))
+  
 ;; Font Configuration
 (setq doom-font (font-spec :family "GohuFont 14 Nerd Font Mono" :size 14)
       doom-variable-pitch-font (font-spec :family "GohuFont 14 Nerd Font Mono" :size 15))
